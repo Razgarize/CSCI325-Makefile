@@ -8,8 +8,8 @@ CFLAGS = -g -Wall -Wextra # compiles with all and extra warnings.
 # When Makefile is called with no argument, this is default executable to be created.
 default: employee 
 
-# When 'Makefile all' is called, it will create all the folling files in the 'All' parameter.
-All: employee
+# When 'Makefile all' is called, it will create all the folling files in the 'all' parameter. Use 'Makefile all'.
+all: employee
 
 # Executable:
 employee: Employee.o Supervisor.o Officer.o main.o
